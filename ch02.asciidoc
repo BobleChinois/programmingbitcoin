@@ -247,8 +247,7 @@ Visually, these points are opposite one another over the x-axis on the curve (se
 [role="width-50"]
 image::images/prbc_0212.png[Vertical Line]
 
-This is why we call this point the point at infinity.
-We have one extra point in the elliptic curve, which makes the vertical line intersect the curve a third time.
+We need to add this extra point to account for identity. We call it the point at infinity and denote it with the symbol 0 (zero).
 
 _Commutativity_ means((("commutativity"))) that _A_ + _B_ = _B_ + _A_.
 This is obvious since the line going through _A_ and _B_ will intersect the curve a third time in the same place, no matter the order.
